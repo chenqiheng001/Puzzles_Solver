@@ -1,0 +1,91 @@
+echo '===================================================================='
+echo '--- c15 (63 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c15 15.23-27.30.41.goal
+echo '--- c16 (40 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c16 16.19.20.goal
+echo '--- c18 (33 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c18 18.21.goal
+echo '--- c19 (59 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c19 16.19.20.goal
+echo '--- c20 (45 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c20.21 16.19.20.goal
+echo '--- c21 (26 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c20.21 18.21.goal
+echo '--- c23 (28 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c23 15.23-27.30.41.goal
+echo '--- c24 (32 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c24 15.23-27.30.41.goal
+echo '--- c27a (60 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c27a 15.23-27.30.41.goal
+echo '--- c27b (70 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c27b 15.23-27.30.41.goal
+echo '--- c27c (78 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c27c 15.23-27.30.41.goal
+echo '--- c27d (81 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c27d 15.23-27.30.41.goal
+echo '--- c28 (61 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c28 28.goal
+echo '--- c29 (54 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c29 29.goal
+echo '--- c30 (67 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c15 15.23-27.30.41.goal
+echo '--- c31 (55 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c31 31.goal
+echo '--- c32 (25 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c32 32.goal
+echo '--- c33 (20 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c33 33.goal
+echo '--- c34 (39 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c34 34.goal
+echo '--- c35 (101 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c35 35.goal
+echo '--- c36 (28 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c36 36.goal
+echo '--- c37 (40 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c37 37.goal
+echo '--- c38 (21 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c38 38.goal
+echo '--- c39 (53 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c39 39.goal
+echo '--- c40 (21 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c40 40.goal
+echo '--- c41 (98 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c15 15.23-27.30.41.goal
+echo '--- c43 (55 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c43-45 43.goal
+echo '--- c44 (70 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c43-45 44.goal
+echo '--- c50 (41 moves, 4x6)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c50-51 50.52.goal
+echo '--- c51 (71 moves, 4x6)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c50-51 51.goal
+echo '--- c52 (90 moves, 4x6)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c52 50.52.goal
+echo '--- c56 (55 moves, 6x5)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh c56 55.56.goal
+
+echo '=== dads (min 58 moves)'
+echo '--- regular dads'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh dads dads.goal
+echo '--- dads rotated 90 degrees'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh dads+90 dads+90.goal
+echo '--- dads rotated 180 degrees'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh dads+180 dads+180.goal
+echo '--- dads rotated 270 degrees'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh dads+270 dads+270.goal
+
+echo '=== donkey (min 83 moves)'
+echo '--- regular donkey'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh init.from.handout goal.1.from.handout
+echo '--- donkey rotated 90 degrees'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh handout.config.1+90 handout.goal+90
+echo '--- donkey rotated 180 degrees'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh handout.config.1+180 handout.goal+180
+echo '--- donkey rotated 27 degrees'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh handout.config.1+270 handout.goal+270
+
+echo '=== other'
+echo '--- big tray'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh big.tray.4 big.tray.4.goal
+echo '--- blockado (needs 74 moves)'
+/home/ff/cs61b/labcode/proj3/testing/medium/runsuccess.csh blockado blockado.goal
